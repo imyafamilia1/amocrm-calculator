@@ -29,3 +29,4 @@ $expires_in = $response['expires_in'];
 file_put_contents('./access_token.txt', $access_token);
 file_put_contents('./refresh_token.txt', $refresh_token);
 file_put_contents('./token_type.txt', $token_type);
+file_put_contents('./referer.txt', $_GET['referer']);
